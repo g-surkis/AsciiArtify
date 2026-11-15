@@ -23,4 +23,5 @@
 Conclusion and justification:
 Minicube is highly fit for learning purposes as it almost not required additional components setup such dashboard, monitoring, etc. Kind is good variant to test compatibility with standard Kubernetes. However, since Minikube was already demonstrated during the coding session and I had a chance to use it while following the teacher's instructions, I would like to try Kind independently for this task.
 
+![AsciiArtify demo](demo.gif)
 
