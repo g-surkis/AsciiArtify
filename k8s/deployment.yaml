@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ascii-artify
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ascii-artify
+  template:
+    metadata:
+      labels:
+        app: ascii-artify
+    spec:
+      containers:
+        - name: ascii-artify
+          image: asciiartify:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 3000
